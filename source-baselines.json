@@ -1,0 +1,144 @@
+{
+  "schema": 1,
+  "capturedOn": "2026-10-29",
+  "main": {
+    "templates/main/broad/manifest.json": "6ac397c06a1fcc956055d6f4bd5d2f54f50919a9f5a18c9136f38e6b827692de",
+    "templates/main/broad/template.json": "dbd5ade885ae7fa01c313f56015f3b2afaecd155003e5052a5f87c5d6136c253",
+    "templates/main/intensive/manifest.json": "3b8c2c7821c2e35fac4962aa67eb9e3333edc2b3bbf7158a199385546758a8a0",
+    "templates/main/intensive/template.json": "d1e40ca54205d4babec91ecb5bb4a9e889a347915cc55f1cacd77a9cbc2694a0",
+    "templates/main/literature/manifest.json": "8617d3472b6c5389cf19af435706fc8e2a5292ccd509023a365caf06fc089eda",
+    "templates/main/literature/template.json": "0a9749ac77cd725ceed396ea8e5fe6b2526a7e2590aef8ad851dc51db3f3babc",
+    "templates/main/research/manifest.json": "861d37cfec90e2f1b153d3eff9afa0c59b9af7ce8eba409ccea37a1bbbc92d74",
+    "templates/main/research/template.json": "d08b6806619ead1764e5cfb0178565ba177e85493a600dd43cda6750aae221c2"
+  },
+  "extractedSources": [
+    {
+      "path": "templates/dev/broad/manifest.json",
+      "sha256": "2f0ccaf9933e035ed9f6c0b9a54dcc11773568b310c4531cfa53fcd23b2122ab",
+      "kind": "template-source"
+    },
+    {
+      "path": "templates/dev/broad/template.json",
+      "sha256": "a1e08856e65a260b09fd749e0265ad5743cff79e13d28e5565dc414cad6ee00c",
+      "kind": "template-source"
+    },
+    {
+      "path": "templates/dev/intensive/manifest.json",
+      "sha256": "4b0a8457678a6f823e8307df992a412db38156c1273ea934522f6a03c12d6d1e",
+      "kind": "template-source"
+    },
+    {
+      "path": "templates/dev/intensive/template.json",
+      "sha256": "d99a5e222d86eac002da3bb8b1f819049b071d8776d08bc1e7ad0c2078582601",
+      "kind": "template-source"
+    },
+    {
+      "path": "templates/dev/literature/manifest.json",
+      "sha256": "34dfccfd487a218e4251e34bbe7297bb52e41c4fb0fc192207fd7a676c534725",
+      "kind": "template-source"
+    },
+    {
+      "path": "templates/dev/literature/template.json",
+      "sha256": "bc083b259e5b00e5e514121ee150cd3337dd219b163c868cb71b0eceab34a8ba",
+      "kind": "template-source"
+    },
+    {
+      "path": "templates/dev/research/manifest.json",
+      "sha256": "5fb4602d20412f89e81851953bd4dced0788e694257f9f9cb94f3ff74eae0e25",
+      "kind": "template-source"
+    },
+    {
+      "path": "templates/dev/research/template.json",
+      "sha256": "6eb0ef9eb4817d471f1f1ebe212bd51ac9213e63367335b4cc56e9be9a311579",
+      "kind": "template-source"
+    },
+    {
+      "path": "templates/main/broad/manifest.json",
+      "sha256": "6ac397c06a1fcc956055d6f4bd5d2f54f50919a9f5a18c9136f38e6b827692de",
+      "kind": "template-source"
+    },
+    {
+      "path": "templates/main/broad/template.json",
+      "sha256": "dbd5ade885ae7fa01c313f56015f3b2afaecd155003e5052a5f87c5d6136c253",
+      "kind": "template-source"
+    },
+    {
+      "path": "templates/main/intensive/manifest.json",
+      "sha256": "3b8c2c7821c2e35fac4962aa67eb9e3333edc2b3bbf7158a199385546758a8a0",
+      "kind": "template-source"
+    },
+    {
+      "path": "templates/main/intensive/template.json",
+      "sha256": "d1e40ca54205d4babec91ecb5bb4a9e889a347915cc55f1cacd77a9cbc2694a0",
+      "kind": "template-source"
+    },
+    {
+      "path": "templates/main/literature/manifest.json",
+      "sha256": "8617d3472b6c5389cf19af435706fc8e2a5292ccd509023a365caf06fc089eda",
+      "kind": "template-source"
+    },
+    {
+      "path": "templates/main/literature/template.json",
+      "sha256": "0a9749ac77cd725ceed396ea8e5fe6b2526a7e2590aef8ad851dc51db3f3babc",
+      "kind": "template-source"
+    },
+    {
+      "path": "templates/main/research/manifest.json",
+      "sha256": "861d37cfec90e2f1b153d3eff9afa0c59b9af7ce8eba409ccea37a1bbbc92d74",
+      "kind": "template-source"
+    },
+    {
+      "path": "templates/main/research/template.json",
+      "sha256": "d08b6806619ead1764e5cfb0178565ba177e85493a600dd43cda6750aae221c2",
+      "kind": "template-source"
+    },
+    {
+      "path": "scene-plugins/reading-scene/plugin/src/NativeTextMenu.js",
+      "sha256": "104dd1df6b0cdb3db36b7687e7749e0c4cb09b42bbdd1b6e71b545ccd72912e3",
+      "kind": "scene-addon-source"
+    },
+    {
+      "path": "scene-plugins/reading-scene/plugin/src/TitleCase.js",
+      "sha256": "fa841afa3a045f85bda70eb15ecac9e0f156f9825232e50a187d035ebcb4637d",
+      "kind": "scene-addon-source"
+    },
+    {
+      "path": "scene-plugins/reading-scene/plugin/src/icon.png",
+      "sha256": "4ed81d52589093284220dc1df898a330278774ef3c5bd7b6974617ed9023546c",
+      "kind": "scene-addon-source"
+    },
+    {
+      "path": "scene-plugins/reading-scene/plugin/src/main.js",
+      "sha256": "0bd9b7571e0a5973baebebb62ac9ed9d0aef0a9a6a6cad8da0cdb9f16fc82682",
+      "kind": "scene-addon-source"
+    },
+    {
+      "path": "scene-plugins/reading-scene/plugin/src/mnaddon.json",
+      "sha256": "7c64c4b00fb1490aa857d70802855ff772cacd091c61623ddc5a6e1e762fcee2",
+      "kind": "scene-addon-source"
+    },
+    {
+      "path": "scene-plugins/research-scene/plugin/src/icon.png",
+      "sha256": "4ed81d52589093284220dc1df898a330278774ef3c5bd7b6974617ed9023546c",
+      "kind": "scene-addon-source"
+    },
+    {
+      "path": "scene-plugins/research-scene/plugin/src/main.js",
+      "sha256": "eb385afc20525a2494fc259f695bf8e5182b9f93895408bddacba667809331a2",
+      "kind": "scene-addon-source"
+    },
+    {
+      "path": "scene-plugins/research-scene/plugin/src/mnaddon.json",
+      "sha256": "6a182eb269445b817d732b91b29187e60191b49bc44bd413421ecae176ee66f7",
+      "kind": "scene-addon-source"
+    },
+    {
+      "path": "mnkb-scene-core/KnowledgeBaseResearchCore.js",
+      "sha256": "785cc397291ffc088dfe92820d6ef8c9c124fd3ab3ed9de8710d0e06251bab62",
+      "kind": "extracted-mnkb-scene-core",
+      "upstream": "https://github.com/xkwxdyy/MNKnowledgeBase",
+      "sourceCommit": "ae984e3a936d89b58f3b27bbcdcb77fd5803e029",
+      "maintenance": "MNKnowledgeBase; exported snapshot only"
+    }
+  ]
+}

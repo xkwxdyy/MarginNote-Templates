@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "projects": {
+    "mntemplates": {
+      "path": ".",
+      "payload": "."
+    },
+    "mnreadingscene": {
+      "path": "scene-plugins/reading-scene",
+      "payload": "plugin/src"
+    },
+    "mnresearchscene": {
+      "path": "scene-plugins/research-scene",
+      "payload": "plugin/src"
+    }
+  }
+}

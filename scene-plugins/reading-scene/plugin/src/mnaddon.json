@@ -1,0 +1,8 @@
+{
+  "addonid": "marginnote.extension.mnreadingscene",
+  "title": "MN Reading Scene · 自由收集与知识学习",
+  "version": "0.1.6",
+  "marginnote_version_min": "4.5.0",
+  "immersiveOnly": true,
+  "cert_key": ""
+}

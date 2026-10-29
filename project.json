@@ -1,0 +1,16 @@
+{
+  "name": "MarginNote Templates",
+  "repository": "xkwxdyy/MarginNote-Templates",
+  "publicationState": "local-unpublished",
+  "scenes": {
+    "broad": "自由收集",
+    "intensive": "知识学习",
+    "research": "课题研究",
+    "literature": "文献研读"
+  },
+  "channels": [
+    "main",
+    "dev"
+  ],
+  "sceneCoreDistribution": "source integration into MNKB, not an independent addon"
+}

@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "bundledSceneAddons": {
+    "marginnote.extension.mnreadingscene": "scene-plugins/reading-scene/plugin/src",
+    "marginnote.extension.mnresearchscene": "scene-plugins/research-scene/plugin/src"
+  },
+  "externalDependencies": [
+    {
+      "addon": "marginnote.extension.mnknowledgebase",
+      "role": "card processing and sole excerpt listener; scene core integration required",
+      "scenes": [
+        "broad",
+        "intensive",
+        "research"
+      ],
+      "requiredCapabilities": [
+        "MNKBResearchCommand",
+        "MNKBResearchResult"
+      ],
+      "bundled": false
+    },
+    {
+      "addon": "marginnote.extension.mnutils",
+      "role": "MNUtil and MNNote host utilities",
+      "scenes": [
+        "broad",
+        "intensive",
+        "research"
+      ],
+      "bundled": false
+    },
+    {
+      "addon": "marginnote.extension.mnocr",
+      "role": "configured OCR provider",
+      "condition": "OCR workflows enabled",
+      "bundled": false
+    },
+    {
+      "addon": "marginnote.extension.mnpinner",
+      "role": "existing template navigation entries",
+      "distribution": "never included in this project or artifacts",
+      "bundled": false
+    },
+    {
+      "addon": "marginnote.extension.mnliterature",
+      "role": "literature workflow and license checks",
+      "scenes": [
+        "literature"
+      ],
+      "distribution": "never included in this project or artifacts",
+      "bundled": false
+    },
+    {
+      "addon": "marginnote.extension.mntoolbar",
+      "role": "existing toolbar integrations",
+      "bundled": false
+    }
+  ],
+  "unverified": [
+    "clean device install",
+    "public MNKB release with scene core",
+    "iPad acceptance"
+  ],
+  "sceneAddonPayloads": {
+    "marginnote.extension.mnreadingscene": [
+      "NativeTextMenu.js",
+      "TitleCase.js",
+      "icon.png",
+      "main.js",
+      "mnaddon.json"
+    ],
+    "marginnote.extension.mnresearchscene": [
+      "icon.png",
+      "main.js",
+      "mnaddon.json"
+    ]
+  }
+}

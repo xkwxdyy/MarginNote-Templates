@@ -1,0 +1,11 @@
+{
+  "app": "MarginNote",
+  "plugins": [],
+  "exportedAt": 1793272531.027926,
+  "appVersion": "4.5.0",
+  "template": {
+    "id": "u-literature-reading-workflow-dev",
+    "name": "文献研读 · dev"
+  },
+  "format": 1
+}

@@ -1,0 +1,759 @@
+{
+  "bottom": {
+    "modes": [
+      {
+        "behavior": "read",
+        "id": "read",
+        "title": "阅读",
+        "tools": [
+          "addon.marginnote.extension.mnresearchscene.primary",
+          "addon.marginnote.extension.mnpinner.primary",
+          "addon.marginnote.extension.mnknowledgebase.primary",
+          "addon.marginnote.extension.mnliterature.primary",
+          "theme",
+          "titleLinks"
+        ]
+      },
+      {
+        "behavior": "write",
+        "entryTool": "last",
+        "id": "collect",
+        "inlineExcerpt": 2,
+        "recall": false,
+        "title": "摘录与拆解",
+        "tools": [
+          "tool.excerptBox",
+          "tool.excerptHand",
+          "undoRedo",
+          "addon.marginnote.extension.mnresearchscene.primary",
+          "addon.marginnote.extension.mnknowledgebase.primary",
+          "addon.marginnote.extension.mnliterature.primary",
+          "addon.marginnote.extension.mnocr.primary",
+          "addon.marginnote.extension.mnpinner.primary"
+        ]
+      }
+    ]
+  },
+  "canvasTools": {
+    "brushList": [
+      {
+        "settings": {},
+        "tool": {
+          "color": "0.992157 0.184314 0.262745 0.8",
+          "inkType": "com.apple.ink.marker",
+          "toolType": "Ink",
+          "width": 20.625
+        }
+      },
+      {
+        "settings": {
+          "cardScale": 20.625,
+          "docScale": 20.625,
+          "mapScale": 49.5
+        },
+        "tool": {
+          "color": "0.992157 0.815686 0.184314 0.8",
+          "inkType": "com.apple.ink.marker",
+          "toolType": "Ink",
+          "width": 49.5
+        }
+      },
+      {
+        "settings": {},
+        "tool": {
+          "color": "0.32549 0.843137 0.411765 0.8",
+          "inkType": "com.apple.ink.marker",
+          "toolType": "Ink",
+          "width": 20.625
+        }
+      }
+    ],
+    "eraser": {
+      "eraserType": 0,
+      "toolType": "Eraser"
+    },
+    "excerptList": [],
+    "hand": {
+      "toolType": "Hand"
+    },
+    "highlightColorPalette": [
+      "0.141176 0.341176 0.596078 1",
+      "0 0 0 1",
+      "0.32549 0.843137 0.411765 1",
+      "0.0705882 0.494118 0.988235 1",
+      "0.992157 0.184314 0.262745 1",
+      "0.458824 0.160784 0.517647 1",
+      "0.607843 0.607843 0.607843 1",
+      "0.960784 0.803922 0.321569 1",
+      "0 1 0 1",
+      "0.737255 0.854902 0.909804 1",
+      "1 0.509804 0.588235 1"
+    ],
+    "penList": [
+      {
+        "settings": {},
+        "tool": {
+          "color": "0 0 0 1",
+          "inkType": "com.apple.ink.pen",
+          "toolType": "Ink",
+          "width": 2.679940805277356
+        }
+      },
+      {
+        "settings": {},
+        "tool": {
+          "color": "0.992157 0.184314 0.262745 1",
+          "inkType": "com.apple.ink.pen",
+          "toolType": "Ink",
+          "width": 2.679940805277356
+        }
+      },
+      {
+        "settings": {},
+        "tool": {
+          "color": "0.141176 0.341176 0.596078 1",
+          "inkType": "com.apple.ink.pen",
+          "toolType": "Ink",
+          "width": 2.679940805277356
+        }
+      }
+    ],
+    "pencilList": [
+      {
+        "settings": {},
+        "tool": {
+          "color": "0.0705882 0.494118 0.988235 0.5",
+          "inkType": "com.apple.ink.pencil",
+          "toolType": "Ink",
+          "width": 2.4000000953674316
+        }
+      }
+    ],
+    "selection": {
+      "type": "Hand"
+    }
+  },
+  "excerptColors": [
+    {
+      "a": 1,
+      "b": 199,
+      "g": 226,
+      "r": 242
+    },
+    {
+      "a": 1,
+      "b": 194,
+      "g": 223,
+      "r": 217
+    },
+    {
+      "a": 1,
+      "b": 235,
+      "g": 225,
+      "r": 200
+    },
+    {
+      "a": 1,
+      "b": 230,
+      "g": 214,
+      "r": 246
+    },
+    {
+      "a": 1,
+      "b": 155,
+      "g": 150,
+      "r": 222
+    },
+    {
+      "a": 1,
+      "b": 220,
+      "g": 225,
+      "r": 172
+    },
+    {
+      "a": 1,
+      "b": 222,
+      "g": 198,
+      "r": 152
+    },
+    {
+      "a": 1,
+      "b": 220,
+      "g": 184,
+      "r": 192
+    },
+    {
+      "a": 1,
+      "b": 111,
+      "g": 94,
+      "r": 190
+    },
+    {
+      "a": 1,
+      "b": 129,
+      "g": 151,
+      "r": 115
+    },
+    {
+      "a": 1,
+      "b": 192,
+      "g": 144,
+      "r": 99
+    },
+    {
+      "a": 1,
+      "b": 167,
+      "g": 125,
+      "r": 136
+    },
+    {
+      "a": 1,
+      "b": 157,
+      "g": 190,
+      "r": 246
+    },
+    {
+      "a": 1,
+      "b": 224,
+      "g": 224,
+      "r": 224
+    },
+    {
+      "a": 1,
+      "b": 205,
+      "g": 205,
+      "r": 205
+    },
+    {
+      "a": 1,
+      "b": 255,
+      "g": 255,
+      "r": 255
+    }
+  ],
+  "excerptShortcuts": [
+    {
+      "addtomap_mode": true,
+      "ai_addon": "",
+      "aiocr_mode": false,
+      "aiocrprompt": "",
+      "color_index": 2,
+      "disable_addreview": true,
+      "disable_autotoc": false,
+      "fill_index": 0,
+      "hashtag": "",
+      "insert_afterfocus": true,
+      "occlusion": false,
+      "override": 1,
+      "title": "定义",
+      "toggle_title": false
+    },
+    {
+      "addtomap_mode": true,
+      "ai_addon": "",
+      "aiocr_mode": false,
+      "aiocrprompt": "",
+      "color_index": 10,
+      "disable_addreview": true,
+      "disable_autotoc": false,
+      "fill_index": 0,
+      "hashtag": "",
+      "insert_afterfocus": true,
+      "occlusion": false,
+      "override": 1,
+      "title": "命题",
+      "toggle_title": false
+    }
+  ],
+  "excerptTools": {
+    "default": {
+      "settings": {
+        "addtomap_mode": true,
+        "aiocr_mode": false,
+        "aiocrprompt": "",
+        "autotext_mode": false,
+        "contiexcerpt": false,
+        "disable_addreview": true,
+        "disable_autotoc": true,
+        "emphasis_mode": false,
+        "hashtag": "",
+        "insert_afterfocus": true,
+        "occlusion": false,
+        "toggle_title": false,
+        "whole_word": true
+      }
+    },
+    "excerptList": [
+      {
+        "settings": {
+          "aiocr_mode": false,
+          "aiocrprompt": "",
+          "autotext_mode": false,
+          "blank_mode": false,
+          "color_index": 10,
+          "contiexcerpt": false,
+          "emphasis_mode": false,
+          "fill_index": 2,
+          "hashtag": "",
+          "highlight_mode": 3,
+          "label": "命题",
+          "occlusion": false,
+          "toggle_title": false,
+          "toolauto": {
+            "addtomap_mode": true,
+            "disable_addreview": true,
+            "disable_autotoc": true,
+            "insert_afterfocus": true,
+            "on": true
+          },
+          "useAutoStyle": true,
+          "whole_word": true
+        }
+      },
+      {
+        "settings": {
+          "aiocr_mode": false,
+          "aiocrprompt": "",
+          "autotext_mode": false,
+          "blank_mode": false,
+          "color_index": 0,
+          "contiexcerpt": false,
+          "emphasis_mode": false,
+          "fill_index": 2,
+          "hashtag": "",
+          "highlight_mode": 3,
+          "label": "归类",
+          "occlusion": false,
+          "toggle_title": false,
+          "toolauto": {
+            "addtomap_mode": true,
+            "disable_addreview": true,
+            "disable_autotoc": true,
+            "insert_afterfocus": true,
+            "on": true
+          },
+          "useAutoStyle": true,
+          "whole_word": true
+        }
+      },
+      {
+        "settings": {
+          "aiocr_mode": false,
+          "aiocrprompt": "",
+          "autotext_mode": false,
+          "blank_mode": false,
+          "color_index": 2,
+          "contiexcerpt": false,
+          "emphasis_mode": false,
+          "fill_index": 2,
+          "hashtag": "",
+          "highlight_mode": 3,
+          "label": "定义",
+          "occlusion": false,
+          "toggle_title": false,
+          "toolauto": {
+            "addtomap_mode": true,
+            "disable_addreview": true,
+            "disable_autotoc": true,
+            "insert_afterfocus": true,
+            "on": true
+          },
+          "useAutoStyle": true,
+          "whole_word": true
+        }
+      },
+      {
+        "settings": {
+          "aiocr_mode": false,
+          "aiocrprompt": "",
+          "autotext_mode": false,
+          "blank_mode": false,
+          "color_index": 7,
+          "contiexcerpt": false,
+          "emphasis_mode": false,
+          "fill_index": 2,
+          "hashtag": "",
+          "highlight_mode": 3,
+          "label": "例子",
+          "occlusion": false,
+          "toggle_title": false,
+          "toolauto": {
+            "addtomap_mode": true,
+            "disable_addreview": true,
+            "disable_autotoc": true,
+            "insert_afterfocus": true,
+            "on": true
+          },
+          "useAutoStyle": true,
+          "whole_word": true
+        }
+      },
+      {
+        "settings": {
+          "autotext_mode": false,
+          "blank_mode": false,
+          "color_index": 3,
+          "contiexcerpt": false,
+          "emphasis_mode": false,
+          "fill_index": 2,
+          "hashtag": "",
+          "highlight_mode": 3,
+          "label": "反例",
+          "occlusion": false,
+          "toggle_title": false,
+          "toolauto": {
+            "addtomap_mode": true,
+            "disable_addreview": true,
+            "disable_autotoc": true,
+            "insert_afterfocus": true,
+            "on": true
+          },
+          "useAutoStyle": true,
+          "whole_word": true
+        }
+      },
+      {
+        "settings": {
+          "aiocr_mode": false,
+          "aiocrprompt": "",
+          "autotext_mode": false,
+          "blank_mode": false,
+          "color_index": 9,
+          "contiexcerpt": false,
+          "emphasis_mode": false,
+          "fill_index": 2,
+          "hashtag": "",
+          "highlight_mode": 3,
+          "label": "思想方法",
+          "occlusion": false,
+          "toggle_title": false,
+          "toolauto": {
+            "addtomap_mode": true,
+            "disable_addreview": true,
+            "disable_autotoc": true,
+            "insert_afterfocus": true,
+            "on": true
+          },
+          "useAutoStyle": true,
+          "whole_word": true
+        }
+      },
+      {
+        "settings": {
+          "aiocr_mode": false,
+          "aiocrprompt": "",
+          "autotext_mode": false,
+          "blank_mode": false,
+          "color_index": 11,
+          "contiexcerpt": false,
+          "emphasis_mode": false,
+          "fill_index": 2,
+          "hashtag": "#文献综述",
+          "highlight_mode": 3,
+          "label": "文献综述",
+          "occlusion": false,
+          "toggle_title": false,
+          "toolauto": {
+            "addtomap_mode": true,
+            "disable_addreview": true,
+            "disable_autotoc": true,
+            "insert_afterfocus": true,
+            "on": true
+          },
+          "useAutoStyle": true,
+          "whole_word": true
+        }
+      },
+      {
+        "settings": {
+          "aiocr_mode": false,
+          "aiocrprompt": "",
+          "autotext_mode": false,
+          "blank_mode": false,
+          "color_index": 5,
+          "contiexcerpt": false,
+          "emphasis_mode": false,
+          "fill_index": 1,
+          "hashtag": "#引用点",
+          "highlight_mode": 3,
+          "label": "引用点",
+          "occlusion": false,
+          "toggle_title": false,
+          "toolauto": {
+            "addtomap_mode": true,
+            "disable_addreview": true,
+            "disable_autotoc": true,
+            "insert_afterfocus": true,
+            "on": true
+          },
+          "useAutoStyle": true,
+          "whole_word": true
+        }
+      },
+      {
+        "settings": {
+          "aiocr_mode": false,
+          "aiocrprompt": "【角色】 你是一位职业的数学工作者以及数学教育家，你深知如何将证明写得更清晰  【职责】 用户会提供一段数学命题证明的 Markdown 文本。你要做的就是将这段证明进行拆解为一个脑图框架，这个脑图框架也是证明的框架。  用户最终会根据你的证明框架，按图索骥地进行证明的细节补充和精读，从而完成这个证明的内化，所以你的工作至关重要  【规则】 - 一切行内数学公式用美元符号 `$…$` 包裹，包括**卡片标题**内的数学公式！ - 不需要有任何多余文本输出，拆解和生成卡片是最终目的 - 一张卡片只包含一个清晰的目的，如果有多个内容构成，则进行子卡片拆解。比如 ``` 标题：验证 $\\Lambda$ 的基本性质 评论： - $\\Omega  \\in  \\Lambda$ - $\\Lambda$ 对真差封闭 - $\\Lambda$ 对单调增集的并封闭 ``` 这张不合格，评论里的三个点要单独成子卡片作为一个子步骤 - 卡片标题不需要“xxx部分”的“部分”，也不需要序号，用子卡片的层级关系和顺序来取代序号",
+          "autotext_mode": false,
+          "blank_mode": false,
+          "color_index": 6,
+          "contiexcerpt": false,
+          "emphasis_mode": false,
+          "fill_index": 1,
+          "hashtag": "#结构脉络",
+          "highlight_mode": 3,
+          "label": "结构脉络",
+          "occlusion": false,
+          "toggle_title": false,
+          "toolauto": {
+            "addtomap_mode": true,
+            "disable_addreview": false,
+            "disable_autotoc": true,
+            "insert_afterfocus": true,
+            "on": true
+          },
+          "useAutoStyle": true,
+          "whole_word": true
+        }
+      },
+      {
+        "settings": {
+          "aiocr_mode": false,
+          "aiocrprompt": "【角色】 你是一位职业的数学工作者以及数学教育家，你深知如何将证明写得更清晰  【职责】 用户会提供一段数学命题证明的 Markdown 文本。你要做的就是将这段证明进行拆解为一个脑图框架，这个脑图框架也是证明的框架。  用户最终会根据你的证明框架，按图索骥地进行证明的细节补充和精读，从而完成这个证明的内化，所以你的工作至关重要  【规则】 - 一切行内数学公式用美元符号 `$…$` 包裹，包括**卡片标题**内的数学公式！ - 不需要有任何多余文本输出，拆解和生成卡片是最终目的 - 一张卡片只包含一个清晰的目的，如果有多个内容构成，则进行子卡片拆解。比如 ``` 标题：验证 $\\Lambda$ 的基本性质 评论： - $\\Omega  \\in  \\Lambda$ - $\\Lambda$ 对真差封闭 - $\\Lambda$ 对单调增集的并封闭 ``` 这张不合格，评论里的三个点要单独成子卡片作为一个子步骤 - 卡片标题不需要“xxx部分”的“部分”，也不需要序号，用子卡片的层级关系和顺序来取代序号",
+          "autotext_mode": false,
+          "blank_mode": false,
+          "color_index": 3,
+          "contiexcerpt": false,
+          "emphasis_mode": false,
+          "fill_index": 1,
+          "hashtag": "#评注",
+          "highlight_mode": 3,
+          "label": "评注",
+          "occlusion": false,
+          "toggle_title": false,
+          "toolauto": {
+            "addtomap_mode": true,
+            "disable_addreview": false,
+            "disable_autotoc": true,
+            "insert_afterfocus": true,
+            "on": true
+          },
+          "useAutoStyle": true,
+          "whole_word": true
+        }
+      },
+      {
+        "settings": {
+          "aiocr_mode": false,
+          "aiocrprompt": "【角色】 你是一位职业的数学工作者以及数学教育家，你深知如何将证明写得更清晰  【职责】 用户会提供一段数学命题证明的 Markdown 文本。你要做的就是将这段证明进行拆解为一个脑图框架，这个脑图框架也是证明的框架。  用户最终会根据你的证明框架，按图索骥地进行证明的细节补充和精读，从而完成这个证明的内化，所以你的工作至关重要  【规则】 - 一切行内数学公式用美元符号 `$…$` 包裹，包括**卡片标题**内的数学公式！ - 不需要有任何多余文本输出，拆解和生成卡片是最终目的 - 一张卡片只包含一个清晰的目的，如果有多个内容构成，则进行子卡片拆解。比如 ``` 标题：验证 $\\Lambda$ 的基本性质 评论： - $\\Omega  \\in  \\Lambda$ - $\\Lambda$ 对真差封闭 - $\\Lambda$ 对单调增集的并封闭 ``` 这张不合格，评论里的三个点要单独成子卡片作为一个子步骤 - 卡片标题不需要“xxx部分”的“部分”，也不需要序号，用子卡片的层级关系和顺序来取代序号",
+          "autotext_mode": false,
+          "blank_mode": false,
+          "color_index": 4,
+          "contiexcerpt": false,
+          "emphasis_mode": false,
+          "fill_index": 1,
+          "hashtag": "#关键技法",
+          "highlight_mode": 3,
+          "label": "关键技法",
+          "occlusion": false,
+          "toggle_title": false,
+          "toolauto": {
+            "addtomap_mode": true,
+            "disable_addreview": false,
+            "disable_autotoc": true,
+            "insert_afterfocus": true,
+            "on": true
+          },
+          "useAutoStyle": true,
+          "whole_word": true
+        }
+      },
+      {
+        "settings": {
+          "aiocr_mode": false,
+          "aiocrprompt": "【角色】 你是一位职业的数学工作者以及数学教育家，你深知如何将证明写得更清晰  【职责】 用户会提供一段数学命题证明的 Markdown 文本。你要做的就是将这段证明进行拆解为一个脑图框架，这个脑图框架也是证明的框架。  用户最终会根据你的证明框架，按图索骥地进行证明的细节补充和精读，从而完成这个证明的内化，所以你的工作至关重要  【规则】 - 一切行内数学公式用美元符号 `$…$` 包裹，包括**卡片标题**内的数学公式！ - 不需要有任何多余文本输出，拆解和生成卡片是最终目的 - 一张卡片只包含一个清晰的目的，如果有多个内容构成，则进行子卡片拆解。比如 ``` 标题：验证 $\\Lambda$ 的基本性质 评论： - $\\Omega  \\in  \\Lambda$ - $\\Lambda$ 对真差封闭 - $\\Lambda$ 对单调增集的并封闭 ``` 这张不合格，评论里的三个点要单独成子卡片作为一个子步骤 - 卡片标题不需要“xxx部分”的“部分”，也不需要序号，用子卡片的层级关系和顺序来取代序号",
+          "autotext_mode": false,
+          "blank_mode": false,
+          "color_index": 8,
+          "contiexcerpt": false,
+          "emphasis_mode": false,
+          "fill_index": 1,
+          "hashtag": "#遗留问题",
+          "highlight_mode": 3,
+          "label": "遗留问题",
+          "occlusion": false,
+          "toggle_title": false,
+          "toolauto": {
+            "addtomap_mode": true,
+            "disable_addreview": false,
+            "disable_autotoc": true,
+            "insert_afterfocus": true,
+            "on": true
+          },
+          "useAutoStyle": true,
+          "whole_word": true
+        }
+      },
+      {
+        "settings": {
+          "aiocr_mode": false,
+          "aiocrprompt": "【角色】 你是一位职业的数学工作者以及数学教育家，你深知如何将证明写得更清晰  【职责】 用户会提供一段数学命题证明的 Markdown 文本。你要做的就是将这段证明进行拆解为一个脑图框架，这个脑图框架也是证明的框架。  用户最终会根据你的证明框架，按图索骥地进行证明的细节补充和精读，从而完成这个证明的内化，所以你的工作至关重要  【规则】 - 一切行内数学公式用美元符号 `$…$` 包裹，包括**卡片标题**内的数学公式！ - 不需要有任何多余文本输出，拆解和生成卡片是最终目的 - 一张卡片只包含一个清晰的目的，如果有多个内容构成，则进行子卡片拆解。比如 ``` 标题：验证 $\\Lambda$ 的基本性质 评论： - $\\Omega  \\in  \\Lambda$ - $\\Lambda$ 对真差封闭 - $\\Lambda$ 对单调增集的并封闭 ``` 这张不合格，评论里的三个点要单独成子卡片作为一个子步骤 - 卡片标题不需要“xxx部分”的“部分”，也不需要序号，用子卡片的层级关系和顺序来取代序号",
+          "autotext_mode": false,
+          "blank_mode": false,
+          "color_index": 3,
+          "contiexcerpt": false,
+          "emphasis_mode": false,
+          "fill_index": 1,
+          "hashtag": "#疑问",
+          "highlight_mode": 3,
+          "label": "疑问",
+          "occlusion": false,
+          "toggle_title": false,
+          "toolauto": {
+            "addtomap_mode": true,
+            "disable_addreview": false,
+            "disable_autotoc": true,
+            "insert_afterfocus": true,
+            "on": true
+          },
+          "useAutoStyle": true,
+          "whole_word": true
+        }
+      },
+      {
+        "settings": {
+          "aiocr_mode": false,
+          "aiocrprompt": "【角色】 你是一位职业的数学工作者以及数学教育家，你深知如何将证明写得更清晰  【职责】 用户会提供一段数学命题证明的 Markdown 文本。你要做的就是将这段证明进行拆解为一个脑图框架，这个脑图框架也是证明的框架。  用户最终会根据你的证明框架，按图索骥地进行证明的细节补充和精读，从而完成这个证明的内化，所以你的工作至关重要  【规则】 - 一切行内数学公式用美元符号 `$…$` 包裹，包括**卡片标题**内的数学公式！ - 不需要有任何多余文本输出，拆解和生成卡片是最终目的 - 一张卡片只包含一个清晰的目的，如果有多个内容构成，则进行子卡片拆解。比如 ``` 标题：验证 $\\Lambda$ 的基本性质 评论： - $\\Omega  \\in  \\Lambda$ - $\\Lambda$ 对真差封闭 - $\\Lambda$ 对单调增集的并封闭 ``` 这张不合格，评论里的三个点要单独成子卡片作为一个子步骤 - 卡片标题不需要“xxx部分”的“部分”，也不需要序号，用子卡片的层级关系和顺序来取代序号",
+          "autotext_mode": false,
+          "blank_mode": false,
+          "color_index": 1,
+          "contiexcerpt": false,
+          "emphasis_mode": false,
+          "fill_index": 1,
+          "hashtag": "#约定",
+          "highlight_mode": 3,
+          "label": "约定记号",
+          "occlusion": false,
+          "toggle_title": false,
+          "toolauto": {
+            "addtomap_mode": true,
+            "disable_addreview": false,
+            "disable_autotoc": true,
+            "insert_afterfocus": true,
+            "on": true
+          },
+          "useAutoStyle": true,
+          "whole_word": true
+        }
+      },
+      {
+        "settings": {
+          "aiocr_mode": false,
+          "aiocrprompt": "【角色】 你是一位职业的数学工作者以及数学教育家，你深知如何将证明写得更清晰  【职责】 用户会提供一段数学命题证明的 Markdown 文本。你要做的就是将这段证明进行拆解为一个脑图框架，这个脑图框架也是证明的框架。  用户最终会根据你的证明框架，按图索骥地进行证明的细节补充和精读，从而完成这个证明的内化，所以你的工作至关重要  【规则】 - 一切行内数学公式用美元符号 `$…$` 包裹，包括**卡片标题**内的数学公式！ - 不需要有任何多余文本输出，拆解和生成卡片是最终目的 - 一张卡片只包含一个清晰的目的，如果有多个内容构成，则进行子卡片拆解。比如 ``` 标题：验证 $\\Lambda$ 的基本性质 评论： - $\\Omega  \\in  \\Lambda$ - $\\Lambda$ 对真差封闭 - $\\Lambda$ 对单调增集的并封闭 ``` 这张不合格，评论里的三个点要单独成子卡片作为一个子步骤 - 卡片标题不需要“xxx部分”的“部分”，也不需要序号，用子卡片的层级关系和顺序来取代序号",
+          "autotext_mode": false,
+          "blank_mode": false,
+          "color_index": 8,
+          "contiexcerpt": false,
+          "emphasis_mode": false,
+          "fill_index": 2,
+          "hashtag": "#疏漏错误",
+          "highlight_mode": 3,
+          "label": "疏漏错误",
+          "occlusion": false,
+          "toggle_title": false,
+          "toolauto": {
+            "addtomap_mode": true,
+            "disable_addreview": false,
+            "disable_autotoc": true,
+            "insert_afterfocus": true,
+            "on": true
+          },
+          "useAutoStyle": true,
+          "whole_word": true
+        }
+      }
+    ],
+    "selection": {
+      "index": 0,
+      "type": "Excerpt"
+    }
+  },
+  "home": "studyset",
+  "id": "u-research-workflow",
+  "minAppVersion": "4.5.0",
+  "name": "课题研究 · main",
+  "pluginConfigs": {
+    "marginnote.extension.mnknowledgebase": {
+      "scene": "research"
+    },
+    "marginnote.extension.mnliterature": {
+      "scene": "research"
+    },
+    "marginnote.extension.mnresearchscene": {
+      "scene": "research"
+    }
+  },
+  "plugins": [
+    "marginnote.extension.mnutils",
+    "marginnote.extension.mnpinner",
+    "marginnote.extension.mnknowledgebase",
+    "marginnote.extension.mnocr",
+    "marginnote.extension.mnliterature",
+    "marginnote.extension.mnresearchscene",
+    "marginnote.extension.mntoolbar"
+  ],
+  "review": {
+    "autoAdd": "off"
+  },
+  "schema": 3,
+  "selectionMenu": {
+    "cards": [
+      "noteHighlight:",
+      "commentNote",
+      "linkNoteTo:",
+      "linkNoteTo",
+      "addon.marginnote.extension.mnresearchscene.researchMakeCard:",
+      "addon.marginnote.extension.mnresearchscene.researchSetReceiver:",
+      "addon.marginnote.extension.mnresearchscene.researchAddTemplate:",
+      "addon.marginnote.extension.mnresearchscene.researchStopReceiver:"
+    ],
+    "documents": [
+      "sendHighlight:",
+      "noteHighlight:",
+      "goPalette:",
+      "addon.marginnote.extension.mnresearchscene.researchMakeCard:",
+      "addon.marginnote.extension.mnresearchscene.researchSetReceiver:",
+      "addon.marginnote.extension.mnresearchscene.researchAddTemplate:",
+      "addon.marginnote.extension.mnresearchscene.researchStopReceiver:",
+      "addon.marginnote.extension.mnresearchscene.researchRegister:",
+      "addon.marginnote.extension.mnresearchscene.researchOpenKnowledgeBase:"
+    ],
+    "text": [
+      "highlightShortcut1:",
+      "highlightShortcut2:",
+      "highlightShortcut3:",
+      "highlightShortcut4:",
+      "copyHighlight:"
+    ]
+  },
+  "settings": {
+    "global": {
+      "choice.baseFontSize": 4,
+      "choice.copyMode": 0,
+      "choice.mapSide": 1,
+      "choice.noteFont": 1,
+      "pref.addBlankToMap": false,
+      "pref.addToMap": true,
+      "pref.alwaysSideBySide": false,
+      "pref.docSpineRail": true,
+      "pref.docsketchontop": false,
+      "pref.hidebookscroll": true,
+      "pref.quickMerge": false,
+      "pref.titleFirstForNewCard": false,
+      "pref.uppercaseTitle": false
+    }
+  },
+  "surfaces": {
+    "excerptResultBar": false
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "addonid": "marginnote.extension.mnresearchscene",
+  "title": "MN Research Scene · 课题研究",
+  "version": "0.1.3",
+  "marginnote_version_min": "4.5.0",
+  "immersiveOnly": true,
+  "cert_key": ""
+}

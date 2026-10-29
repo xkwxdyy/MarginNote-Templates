@@ -1,0 +1,11 @@
+output/
+.local/
+MEMORY/
+__pycache__/
+*.py[cod]
+*.mntemplate
+*.mnaddon
+addon-workspace.local.json
+.DS_Store
+.env*
+*.log
