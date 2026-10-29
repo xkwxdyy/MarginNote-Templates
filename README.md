@@ -2,7 +2,7 @@
 
 MarginNote 场景模板：[自由收集](docs/scenes/broad.md)、[知识学习](docs/scenes/intensive.md)、[课题研究](docs/scenes/research.md)、[文献研读](docs/scenes/literature.md)。
 
-拟发布仓库：`xkwxdyy/MarginNote-Templates`。当前仅完成本地整理，尚未上传。发布文件及许可证须在上传前确认。
+公开仓库：[xkwxdyy/MarginNote-Templates](https://github.com/xkwxdyy/MarginNote-Templates)。源码已于 2026-10-30 按审阅清单上传。当前提供源码及本地构建方法，安装包尚未发布；许可证尚未指定。
 
 ## 目录
 
@@ -14,7 +14,7 @@ MarginNote 场景模板：[自由收集](docs/scenes/broad.md)、[知识学习](
 | `scene-plugins/research-scene/` | 课题研究所需的场景插件 |
 | `mnkb-scene-core/` | MNKB 场景核心的可追溯导出快照，须接入 MNKB 宿主 |
 | `dependencies.json` | 场景插件与外部依赖边界 |
-| `publication-files.json` | 拟上传源码的逐文件允许清单 |
+| `publication-files.json` | 源码的逐文件允许清单 |
 | `output/` | 本地生成的可导入文件与校验记录，不进入源码提交 |
 
 ## 构建与检查

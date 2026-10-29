@@ -1,7 +1,7 @@
 {
   "name": "MarginNote Templates",
   "repository": "xkwxdyy/MarginNote-Templates",
-  "publicationState": "local-unpublished",
+  "publicationState": "source-published",
   "scenes": {
     "broad": "自由收集",
     "intensive": "知识学习",
@@ -12,5 +12,6 @@
     "main",
     "dev"
   ],
-  "sceneCoreDistribution": "source integration into MNKB, not an independent addon"
+  "sceneCoreDistribution": "source integration into MNKB, not an independent addon",
+  "sourcePublishedOn": "2026-10-30"
 }

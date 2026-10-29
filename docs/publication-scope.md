@@ -1,8 +1,8 @@
 # 上传范围
 
-项目名确定为 **MarginNote Templates**，拟用仓库名为 **MarginNote-Templates**，所属账号为 `xkwxdyy`。当前不创建远程仓库，不设置远程地址，不上传文件。
+项目名为 **MarginNote Templates**，公开仓库为 [xkwxdyy/MarginNote-Templates](https://github.com/xkwxdyy/MarginNote-Templates)。2026-10-30 已根据确认的逐文件清单公开源码，远程文件树与已审阅提交一致。
 
-## 拟上传内容
+## 已公开的源码范围
 
 `publication-files.json` 逐项列出模板 main／dev 配置、场景插件源码、提取的 MNKB 场景核心、离线测试、构建工具与必要说明。审核回执通过 `python3 tools/check-publication.py --report output/publication-review.json` 生成，记录每项文件的路径、字节数和 SHA-256。清单获准后仍须核对内容散列；文件变化需要重新审阅。
 
@@ -24,6 +24,6 @@
 
 原工作区已有 main 安装包保持原字节。新项目重新构建的 main 安装包补齐模板声明的场景插件，因此包体可以与旧附件不同；模板配置本身必须与本次确认基线一致。
 
-## 上传前确认
+## 后续发布确认
 
-提交具体源码清单、文件散列、待发附件及验证范围；核验命令行 GitHub 账号为 `xkwxdyy`，再取得对应上传授权。许可证及对外说明尚未确认。
+源码首次上传已经确认并完成。新增公开文件、安装包附件、许可证及其他对外发布仍须按具体范围审阅；发布前核验命令行 GitHub 账号为 `xkwxdyy`。当前没有发布 Release 或安装包。
